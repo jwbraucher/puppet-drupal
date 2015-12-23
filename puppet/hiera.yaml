@@ -1,0 +1,7 @@
+# Puppet Hiera Data
+:yaml:
+  :datadir: .
+:merge_behavior: deeper
+:hierarchy:
+  - "puppet/%{environment}"
+

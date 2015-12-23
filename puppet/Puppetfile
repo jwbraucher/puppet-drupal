@@ -1,0 +1,14 @@
+
+## Runtime dependencies
+
+forge 'https://forgeapi.puppetlabs.com'
+
+# Module for configuring php and installing php modules
+mod 'mayflower/php'
+
+# Module for configuring postfix
+mod 'example42/postfix'
+
+# Module for configuring mysql
+mod 'puppetlabs/mysql', '3.6.1'
+
